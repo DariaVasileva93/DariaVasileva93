@@ -1,0 +1,3 @@
+SELECT job_title, experience
+FROM resume
+WHERE job_title = 'Analyst'
