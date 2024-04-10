@@ -1,0 +1,4 @@
+- 👋 Hi, I’m @DariaVasileva93
+- 👀 I’m interested in music, analytics, travel
+- 🌱 I’m currently learning python and SQL
+- ⚡ Fun fact: there's nothing funny
