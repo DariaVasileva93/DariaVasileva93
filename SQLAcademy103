@@ -3,3 +3,12 @@
 SELECT employee.name
 FROM Employee AS employee, Employee AS chieves
 WHERE chieves.id=employee.chief_id AND employee.salary > chieves.salary
+
+# Определить кто и сколько потратил в июне 2005
+
+SELECT member_name, SUM(unit_price*amount) AS costs
+FROM FamilyMembers
+INNER JOIN Payments
+    ON Payments.family_member=FamilyMembers.member_id
+WHERE Payments.date LIKE '2005-06%'
+GROUP BY member_name
