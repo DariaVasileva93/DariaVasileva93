@@ -1,0 +1,5 @@
+# Вывести список имён сотрудников, получающих большую заработную плату, чем у непосредственного руководителя.
+
+SELECT employee.name
+FROM Employee AS employee, Employee AS chieves
+WHERE chieves.id=employee.chief_id AND employee.salary > chieves.salary
